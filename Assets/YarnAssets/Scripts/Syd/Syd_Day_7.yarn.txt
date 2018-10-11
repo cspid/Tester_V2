@@ -1,0 +1,195 @@
+title: VariableSetup
+tags: 
+colorID: 0
+position: 1470,-313
+---
+<<set $PlayerName = "(Player)">>
+<<set $NMName = "Nurse Manager">>
+<<set $PronounA = "he">>
+<<set $PronounB = "him">>
+<<set $PronounPos = "his">>
+<<set $Character2First = "Gloria">>
+<<set $Character2Last = "Mrs Stein">>
+<<set $Character3First = "Syd">>
+<<set $Character3Last = "LastName">>
+
+***This Scene follows up on the player's interaction with Syd from the previous day (Day 6). In order to set up this scene, please choose one of the following:***
+
+[[The player's behaviour offended Syd, and he abruptly ended your conversation|Start_If_Dumb_Syd_Day_7]] <<$Syd_Upset_Day_6 = true>> 
+[[The player did not make an effort to ask Syd what was bothering him|Start_If_Flippant_Syd_Day_7]] <<$End_Flippant_Syd_Day_6 = true>>
+[[The Player handled Syd's coming out exceptionally well, and earned his trust|Start_If_Good_Syd_Day_7]] <<$Syd_Upset_Day_6 = false && $End_Flippant_Syd_Day_6 = false>>
+===
+title: Empathetic2_Syd_Day_6
+tags: 
+colorID: 0
+position: 1108,558
+---
+[$Character3First]: I think literally every resident here as well as half the staff have asked me at some point - "Do you have a wife?" And when I say no, they look at me sympathetically and shake their heads. "So she passed away? I'm so sorry to hear that. How long has it been?"
+
+[[What do you want them to ask you Syd?|Probing_Syd_Day_6]]
+[[Please, go on..|Probing_Syd_Day_6]]
+===
+title: Probing_Syd_Day_6
+tags: 
+colorID: 0
+position: 1079,850
+---
+[$Character3First]: It's just... people make so many presumptions. Sometimes I think it's because they're just being careless, but sometimes I think it's because they don't want me to tell them something they don't want to hear.
+Skip:
+[$PlayerName]: How do you mean?
+Skip:
+[$Character3First]: Like, they ask me about my "wife" so that I wont tell them what a wonderful man my partner is. So they wont have to hear me talk about how much it breaks my heart that when he visits I have to introduce him as my "friend", and we have to surpress any kind of love or affection we might feel for eachother, because heaven forbid, we might make someone feel uncomfortable. 
+
+[[Syd, I'm so sorry. I didn't know.|DidntKnow_Syd_Day_6]]
+[[I'm so sorry, I should have recognized what was going on|DidntKnow_Syd_Day_6]]
+===
+title: DidntKnow_Syd_Day_6
+tags: 
+colorID: 0
+position: 1078,1312
+---
+[$Character3First]: It's not your fault, nobody here knows. I'm hoping I can trust you to keep that to yourself.
+Skip:
+[$PlayerName]: Yes, of course.
+
+[[Keep_Secret_Syd_Day_7]]
+===
+title: Suggest_Meeting_Syd_Day_7
+tags: 
+colorID: 0
+position: 1466,387
+---
+[$PlayerName]: Would you be willing to talk with some of the management here about your situation? It sounds like these kinds of issues haven't been fully thought through in terms of our policies. Your story might be able to help change that.
+Skip:
+[$Character3First]: I highly doubt it. I get the feeling the people who run this place would much rather people like me stay quiet and not make a fuss. 
+
+[[To be honest, that sounds about right.|Keep_Secret_2_Syd_Day_6]]
+[[I'm not saying you're wrong, but it might be worth the risk at this point.|Keep_Secret_2_Syd_Day_6]]
+[[I'm certain they'll do the right thing.|Keep_Secret_2_Syd_Day_6]]
+
+===
+title: Keep_Secret_2_Syd_Day_6
+tags: 
+colorID: 0
+position: 1921,1296
+---
+[$Character3First]: I appreciate the gesture...
+Skip:
+[$Character3First]: I really do. 
+Skip:
+[$Character3First]: Let me sleep on it. 
+Skip:
+[$PlayerName]: Of course, take your time. I've got to run, but I'll see you later?
+Skip:
+[$Character3First]: Thanks [$PlayerName].
+
+===
+title: Come_Out_Syd_Day_7
+tags: 
+colorID: 0
+position: 1115,283
+---
+[$Character3First]: [$PlayerName], Can I ask you something?
+Skip:
+[$PlayerName]: Of Course. 
+Skip:
+[$Character3First]: Do you feel you let the people you meet here get to know who you really are?
+    -> In a limited way, I'm a pretty private person. 
+    -> Sure, I feel like I can be myself at work.
+    -> I only Show people what I want them to see. 
+
+[$Character3First]: That's interesting. 
+[[Empathetic2_Syd_Day_6]]
+===
+title: Start_If_Flippant_Syd_Day_7
+tags: 
+colorID: 0
+position: 1148,-12
+---
+[$Character3First]: Oh, it's you again. 
+Skip:
+[$PlayerName]: umm.. yeah. It's me. Everything alright?
+Skip:
+[$Character3First]: Sure, sure. You can just turn on the T.V. and be on your way again.
+    ->I'm sorry.. I thought that's what you wanted when we spoke yesterday. Did I make a mistake?
+    ->I'm sensing a lot of sarcasm.. Is there something you want to talk about?
+
+[$Character3First]: I'm sorry... this isn't your fault, I don't know why I'm taking it out on you. 
+    ->What isn't my fault?
+    ->Taking what out on me?
+
+[[Come_Out_Syd_Day_7]]
+===
+title: Start_If_Dumb_Syd_Day_7
+tags: 
+colorID: 0
+position: 1462,114
+---
+[$Character3First]: Ugh. You again. 
+Skip:
+[$PlayerName]: Me again... 
+Skip:
+[$PlayerName]: Syd, I'm so sorry about yesterday, I don't know what I was thinking.
+Skip:
+[$Character3First]: I'm not convinced you were thinking at all.
+    ->I'm really sorry. I've never talked to someone who's going through what you're going through, it all just came out wrong. 
+    ->I'm sorry, I get really uncomfortable around topics like this and end up saying the wrong thing. 
+
+[$Character3First]: You sure acted like a dope, but I appreciate you coming back to apologize. Forgive me, what was your name again?
+Skip:
+[$PlayerName]: My name's [$PlayerName].
+Skip:
+[$Character3First]: [$PlayerName], maybe part of the reason we miscomunicated yesterday is that I was beating around the bush, so let me be a little more straightforward. I'm gay, and I don't feel like anybody here wants to hear that, I feel like they just want me to keep it to myself. I don't know what to do. 
+    ->That sounds awful.
+    ->I'm sorry, that's terrible.
+
+[[Suggest_Meeting_Syd_Day_7]]
+===
+title: Start_If_Good_Syd_Day_7
+tags: 
+colorID: 0
+position: 1780,49
+---
+[$Character3First]: Oh, hey, [$PlayerName].
+Skip:
+[$PlayerName]: Hey [$Character3First]!
+Skip:
+[$Character3First]: So.. Let's do it. 
+[[Do what?|Start_If_Good_2_Syd_Day_7]]
+[[The meeting?|Start_If_Good_2_Syd_Day_7]]]]
+===
+title: Keep_Secret_Syd_Day_7
+tags: 
+colorID: 0
+position: 1560,1305
+---
+[$PlayerName]: I wont tell anyone. But Syd, if I'm being honest I hate seeing how miserable this is making you. I want you to have a real home here, and I think you want that too. 
+Skip:
+[$Character3First]: Of course. 
+Skip:
+[$PlayerName]: Would you be willing to talk with some of the management here about your situation? It sounds like these kinds of issues haven't been fully thought through in terms of our policies. Your story might be able to help change that.
+Skip:
+[$Character3First]: I highly doubt it. I get the feeling the people who run this place would much rather people like me stay quiet and not make a fuss. 
+
+[[To be honest, that sounds about right.|Keep_Secret_2_Syd_Day_6]]
+[[I'm not saying you're wrong, but it might be worth the risk at this point.|Keep_Secret_2_Syd_Day_6]]
+[[I'm certain they'll do the right thing.|Keep_Secret_2_Syd_Day_6]]
+
+===
+title: Start_If_Good_2_Syd_Day_7
+tags: 
+colorID: 0
+position: 2079,69
+---
+[$Character3First]: The meeting. Can we set it up? 
+Skip:
+[$PlayerName]: Yes! I mean, I'll talk to my supervisor, but I'm sure it'll be fine. I would have asked her already, but I needed to know you were sure about it. Are you sure? Would you be willing to tell some of the management what you told me?
+Skip:
+[$Character3First]: Yeah, I think it's time. One thing  - I'd like Richard, my partner,  to be there. Can we arrange that? 
+Skip:
+[$PlayerName]: I think that would fine. Let me speak to my nurse manager, she calls the shots around here, but she's great I'm sure it wont be a problem. 
+Skip:
+[$Character3First]: Wonderful.
+Skip:
+[$PlayerName]: Okay! I've got to run, but I'll let you know as soon as I can. 
+===

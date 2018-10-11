@@ -1,0 +1,358 @@
+title: Start
+tags: 
+colorID: 0
+position: 543,269
+---
+[$NMName]: ... of course. If you'd rather me be the one to tell [$PronounB]...
+Skip:
+[$Character2Last]: Oh! Well speak of the devil.
+Skip:
+[$PlayerName]: Uh oh, were you guys talking about me? 
+Skip:
+[$NMName]: Not in a bad way. Gloria had something she wanted to talk to you about. Gloria, would you like me to leave you two to talk?
+Skip:
+[$Character2Last]: No please stay. Perhaps you two would sit down a moment.
+Skip:
+...
+Skip:
+[$Character2Last]: (Player), I know you’ve only been working here a few days, but I feel like we've really gotten to bond in that time. 
+Skip:
+[$PlayerName]: Me too!
+Skip:
+[$Character2Last]: But your nurse manager and I go back a long time, isn’t that right Anne?
+Skip:
+[$NMName]: Almost four years now! Wow time flies. 
+Skip:
+[$Character2Last]: (Smiles) On the good days it does.
+Skip:
+......
+Skip:
+[$Character2Last]: I spoke to my doctor the other day, and I’m afraid the news wasn’t particularly good.. I’m not sure how many more days we’re going to have together.
+
+[[but.. I don't..|falter]]
+[[(Say Nothing)|falter]]
+[[Are you sure?|areYouSure]]
+===
+title: falter
+tags: 
+colorID: 0
+position: 211,645
+---
+[$NMName]: Gloria I'm so sorry.
+Skip:
+[$Character2Last]: Thank you Anne. 
+Skip:
+[$PlayerName]: I’m sorry. I don’t know what to say
+Skip:
+[$Character2Last]: Thank you (Player). There’s no magic words anyone can say. I know you care, and I’m so glad we’ve gotten to know each other recently.
+Skip:
+[$PlayerName]: Me too. 
+
+[[I guess I didn’t expect… |expectation]]
+[[Did they say how long you... have?|howLong]]
+===
+title: areYouSure
+tags: 
+colorID: 0
+position: 542,558
+---
+[$PlayerName]: What if they made a mistake?
+Skip:
+[$Character2Last]: Anything's possible, but it's unlikely. For me now, the mistake would be not to treasure these next few days, if they are in fact my last. 
+[[falter]]
+===
+title: expectation
+tags: 
+colorID: 0
+position: 209,902
+---
+[$Character2Last]: Of course. You're still very young, and the things we come to expect change as we get older. 
+[[daughter]]
+===
+title: howLong
+tags: 
+colorID: 0
+position: 464,898
+---
+[$Character2Last]: Most likely just a few days, two weeks at the most.
+[[daughter]]
+===
+title: daughter
+tags: 
+colorID: 0
+position: 327,1312
+---
+[$Character2Last]: My daughter is coming in from Montreal, and she’ll be here... for the duration. That means a lot to me, I’ll be glad to have her here.
+Skip:
+[$NMName]: I'm so glad.  
+Skip:
+[$Character2Last]: No long faces now. I’d like to take some time alone if you don't mind, but I'll see you both this evening for bingo, yes?
+Skip:
+[$NMName]: Of Course, see you then.
+
+[[OutsideRoom]]
+===
+title: OutsideRoom
+tags: 
+colorID: 0
+position: 936,261
+---
+(In the Hallway)
+Skip:
+[$NMName]: Are you alright (Player)? You seemed pretty uncomfortable - that’s totally understandable you know. 
+
+[[No I’m fine.|StepOutside]]<<set $imFine = true>>
+[[I’m feel stupid. I just didn’t know what to say.|StepOutside]] <<set $feelStupid = true>>
+[[I think I might cry|StepOutside]] <<set $cry = true>>
+===
+title: Node9
+tags: 
+colorID: 0
+position: 1857,335
+---
+Are you alright? You seemed uncomfortable - that’s totally understandable you know. 
+ 
+Marcus
+No I’m fine. I’m feel stupid I just didn’t know what to say. 
+
+
+***pause***
+
+
+Marcus: Eve is a lot like my grandma - she passed away almost a year ago today.
+
+Anne
+Were you close with her?
+ 
+Marcus
+Yeah, she was a big part of my life, especially when I was a kid. My dad really wasn’t around.
+ 
+Anne
+Do you have someone to talk about this kind of stuff with?
+ 
+Marcus
+Yeah I talk about it with my girlfriend a bit, but I don’t want to put all this stuff on her, it’s a lot and she has a lot of stress already.
+
+Anne
+When someone dies it can really force you to look back at other people you may have lost, and confront a lot of those feelings for me. I know I’m that way. Would you be interested in talking to someone? You know you do have free access to counselling through our organization.
+
+Marcus
+I don’t know… That’s not really how I was raised.
+ 
+Anne
+Okay, I understand but I do hope you’ll reconsider. I’m also happy to talk to you anytime, don’t hesitate to ask.
+ 
+Marcus
+Thanks, I’ll let you know.
+===
+title: imFine
+tags: 
+colorID: 0
+position: 1888,813
+---
+[$PlayerName]: I appreciate you being concerned for me, but I really am fine.
+Skip:
+[$NMName]: [$PlayerName], I've seen you when you're fine. This... is not it. Do you not want to talk about how you're feeling?
+
+[[I feel fine! Really.|feelStupid]]
+[[This stuff is just a part of the job|feelStupid]]
+[[It's not that I don't want to, it's just hard|feelStupid]]
+===
+title: feelStupid
+tags: 
+colorID: 0
+position: 1189,843
+---
+[$NMName]: You know when I was about your age I did my school placement, just like you're doing now. I remember I was so nervous I thought I was going to be sick. Everyone I worked with seemed like they'd been working there forever, and nothing ever seemed to surprise them - no one ever seemed rattled no matter what happened. I felt like I had to act that way too, like I had to pretend that nothing ever caught me off gaurd or surprised me. 
+
+[[That sounds stressful|feelStupid2]]
+[[That's kind of how I feel...|feelStupid2]]
+[[That's ridiculous, you were just starting|feelStupid2]]
+===
+title: cry
+tags: 
+colorID: 0
+position: 1501,1051
+---
+[$NMName]: If you need to cry, now's the time [$PlayerName]
+Skip:
+(the player cries)
+Skip:
+[$NMName]: Some people think you need to be really hardend inside to do this kind of work. 
+
+[[feelStupid]]
+===
+title: StepOutside
+tags: 
+colorID: 0
+position: 1073,528
+---
+[$NMName]: Why dont you and I step outside and talk a little while.
+Skip:
+[$PlayerName]: Okay.
+Skip:
+(They step out into the garden)
+
+[[ArrivedOutside]]
+===
+title: ArrivedOutside
+tags: 
+colorID: 0
+position: 1529,487
+---
+<<if $cry == true>>
+[[cry]]
+<<endif>>
+
+<<if $imFine == true>>
+[[imFine]]
+<<endif>>
+
+<<if $feelStupid == true>>
+[[feelStupid]]
+<<endif>>
+===
+title: feelStupid2
+tags: 
+colorID: 0
+position: 895,1208
+---
+[$NMName]: I thought that to do my job well I had to behave like I knew everything, had experienced everything, could handle everything. But in the end that became a huge barrier to me doing my job well, and people noticed. My student placement did not go smoothly at all.
+Skip:
+[$PlayerName]: What do you mean? What happened?
+Skip:
+[$NMName]: Well, acting like I knew everything meant I didn't ask questions and I didn't ask for help when I needed it. That lead to me making a lot of mistakes. And I was bottling up all the stress that came along with that, and that only made things worse. 
+Skip:
+[$PlayerName]: Mrs Stein read me this passage the other day from a book she was reading. It was about how after a certain age, a lot of the people you knew have died. Most, maybe. And it was about how you start to think about the people you've lost when you meet new people, and kind of imagine them in place of the new person. She said she did that with me. 
+Skip:
+[$NMName]: How did that make you feel? 
+
+[[It made me upset|upset]]
+[[I understood|understood]]
+===
+title: guilty
+tags: 
+colorID: 0
+position: 1004,1799
+---
+[$NMName]: Well, it seems like you both remind eachother of people you loved very much. What are some of the things about her that remind you of your grandmother?
+[[The way she loves to read.|memory]]
+[[Her warmth, how gentle she is.|memory]]
+[[Her voice.|memory]]
+[[I don't know.. something I don't know how to put into words.|memory]]
+===
+title: upset
+tags: 
+colorID: 0
+position: 718,1524
+---
+[$PlayerName]: It's weird to know someone is kind of.. looking through you. Sometimes I feel that way here. Like, a lot of the residents would just forget me after a day or two if I stopped coming by. And now, when Mrs Stein dies, people will just forget her too and someone new will take her room and her bed, and that's just.. normal for this place.
+Skip:
+[$NMName]: I think you're partly right. Death simply happens here more than it does in other places, and people allow themselves to become used to it. But it's not because they don't care, I think they're just trying to protect themselves.
+
+[[understood]]
+===
+title: understood
+tags: 
+colorID: 0
+position: 1213,1522
+---
+[$PlayerName]: I didn't tell her this but sometimes I do the same thing with her... with her and my grandma. She died last year.
+Skip:
+[$NMName]: How come you didn't tell her?
+
+[[I felt guilty|guilty]]
+[[It feels morbid|guilty]]
+[[I should have told her|shouldHave]]
+===
+title: shouldHave
+tags: 
+colorID: 0
+position: 1337,1980
+---
+[$NMName]: Well, it's not too late. You might find it really helpful to talk to her about your grandmother. 
+Skip:
+[$Player]: hmmm... Okay. I'll keep it in mind. Thanks. 
+
+[[therapy]]
+===
+title: memory
+tags: 
+colorID: 0
+position: 1007,2051
+---
+[$NMName]: Is it safe to say that that's a happy memory?
+Skip:
+[$PlayerName]: Yeah. 
+Skip:
+[$NMName]: Then maybe that's not the worst thing. Do you have someone you can talk to about this kind of thing? Friends or family? A partner?
+
+[[Yeah, my friends are really good about talking about stuff like this.|therapy]]
+[[My family is really supportive, I can talk to them about anything.|therapy]]
+[[My partner is amazing, I couldn't ask for someone more supportive.|therapy]]
+[[Well... Not really, to be honest. |therapy]]
+===
+title: therapy
+tags: 
+colorID: 0
+position: 1007,2297
+---
+[$NMName]:Do you think it might help to talk to someone who's outside you're daily life?
+Skip:
+[$PlayerName]: You mean like a therapist?
+Skip:
+[$NMName]: Yeah, exactly.
+
+[[Sometimes|putInTouch]]
+[[It's not really for me|putInTouch]]
+===
+title: putInTouch
+tags: 
+colorID: 0
+position: 1008,2568
+---
+[$NMName]: Well just so you know, you have coverage through your work placement to see someone for free. If that's something that would interest you I'd be happy to put you in touch to arrange a session.
+
+[[Thank you, I'd like that a lot|Yes]]
+[[I don't think it's the right time for me, but thank you|No]]
+[[I'd like to think about it for a while if that's okay.|Maybe]]
+===
+title: Yes
+tags: 
+colorID: 0
+position: 663,2891
+---
+[$NMName]: Of course, I hope you'll find it to be of help. I have to run, but I'll send you that contact tonight. See you later!
+===
+title: No
+tags: 
+colorID: 0
+position: 974,2975
+---
+[$NMName]: Of course. If you ever change your mind just let me know. I have to run, take care!
+===
+title: Maybe
+tags: 
+colorID: 0
+position: 1293,2827
+---
+[$NMName]: Of course, take your time. I've got to run now, but I'm sure I'll see you later.
+Skip:
+[$PlayerName]: Great, thanks again!
+===
+title: VariableSetup
+tags: 
+colorID: 0
+position: 541,11
+---
+<<set $PlayerName = "Player">>
+<<set $NMName = "Nurse Manager">>
+<<set $PronounA = "he">>
+<<set $PronounB = "him">>
+<<set $PronounPos = "his">>
+<<set $Character2First = "Gloria">>
+<<set $Character2Last = "Mrs Stein">>
+
+
+[[Start]]
+===

@@ -1,0 +1,193 @@
+title: Knock_Sexuality_1
+tags: 
+colorID: 0
+position: 428,55
+---
+[$PlayerName]: [$Char2First], it’s me, [$PlayerName], The activation coordinator student. May I come in to discuss signing you up for Music Class? 
+Skip:
+**Faint scuffling sounds**
+Skip:
+[$PlayerName]: [$Char2First]?
+Skip:
+//(Player hesitates a moment and then enters the room) 
+**[$Char2Last] is embracing a man**
+[[Ew!|Gross_Sexuality_1]]
+[[I’m so sorry!! I didn’t know you were with someone!|Sorry_Sexuality_1]]
+
+
+===
+title: Sexuality1_Start
+tags: 
+colorID: 0
+position: 267,-221
+---
+[[Enter [$Char2Last]'s room|Dont_Knock_Sexuality_1]]
+[[Knock on [$Char2Last]'s door|Knock_Sexuality_1]]
+===
+title: Dont_Knock_Sexuality_1
+tags: 
+colorID: 0
+position: 112,46
+---
+**[$Char2Last] is embracing a man**
+Skip:
+[$Char2Last]: Excuse me! What are you doing in here?
+[[Ew!|Gross_Sexuality_1]]
+[[I’m so sorry!! I didn’t know you were with someone!|Sorry_Sexuality_1]]
+
+===
+title: Sorry_Sexuality_1
+tags: 
+colorID: 0
+position: 86,348
+---
+**Flustered, [$PlayerName] rushes out of the room.
+[[Cindy_Sexuality_1]]
+===
+title: Gross_Sexuality_1
+tags: 
+colorID: 0
+position: 433,340
+---
+[$Char2Last]: This is my room! Go away!! 
+[[Cindy_Sexuality_1]]
+===
+title: Cindy_Sexuality_1
+tags: 
+colorID: 0
+position: 308,639
+---
+**The Player runs into the Nurse Manager in the hallway**
+Skip:
+[$NMName]: Good Job [$PlayerName], Looks like you got almost everyone signed for music class tomorrow. Hmmm... Everyone but [$Char2First] [$Char2Last] Moore. That’s surprising, it's one of her favourite activities.
+Skip:
+**[$PlayerName] looks nervous.**
+Skip:
+[$NMName]: is everything alright? 
+[[Hmmm? No.. Haven't seen her.|Lie_Sexuality_1]]
+[[Well, She wasn’t alone… There was a man in the room with her. |Truth_Sexuality_1]]
+===
+title: Truth_Sexuality_1
+tags: 
+colorID: 0
+position: 526,947
+---
+[$PlayerName] Well, she wasn’t alone…There was a man in the room with her. 
+[[Cindy2_Sexuality_1]]
+===
+title: Lie_Sexuality_1
+tags: 
+colorID: 0
+position: 28,940
+---
+[$NMName]: Have you checked her room?  
+Skip:
+[$PlayerName]: uhhh… well the thing is.. I actually did see her, but she was preoccupied with a visitor…
+[[Cindy2_Sexuality_1]]
+===
+title: Cindy2_Sexuality_1
+tags: 
+colorID: 0
+position: 283,1239
+---
+[$NMName]: Probably her friend Mr. Chung, from the south wing...
+Skip:
+[$PlayerName]: No, I don’t think it was him. I’ve met Mr. Chung before...
+Skip:
+[$PlayerName]: This is another man…
+Skip:
+[$PlayerName]: THIS. IS. SO. WEIRD! I can't believe they're allowed to do that in here!
+Skip:
+[$NMName]: do what? 
+Skip:
+[$PlayerName]: they were making out… you know… KISSING!!
+Skip:
+[$NMName]:  Well, they’re adults, [$PlayerName]. Just because they’re seniors that doesn’t mean they have to give up everything…
+Skip:
+[$PlayerName]: But they’re as old as my grandparents…I just think it’s like... GROSS
+Skip:
+[$NMName]:  our responsibility is to make sure that they’re being safe. They have the right to privacy... and to a personal life. 
+Skip:
+[$NMName]:  I think it’s kind of beautiful when our residents can find some closeness and intimacy with another person here…whether it’s sexual or not. 
+Skip:
+Joanne:….I Guess. But I feel really uncomfortable. It’s like I walked in on my grandmother making out with an old guy. 
+Skip:
+[$NMName]:  Joanne, we need young people, like you, to understand that older adults are also sexual beings… we need to eliminate hurtful stereotypes about growing old… And –Joanne, when you come to my office for our debrief session, I’ll give you an article that I want you to read I think you’ll find helpful. 
+Skip:
+[$PlayerName]: okay… I do have a quick question before you go, how do we know what [$Char2First] is doing is consensual?
+Skip:
+[$NMName]:  that’s a great question, we do know from our ongoing assessment that [$Char2First] is fully capable of making personal decisions. But I’ll touch base with her later to make sure she’s feeling comfortable with whatever’s going on 
+Skip:
+[$PlayerName]: okay… thanks 
+Skip:
+[$PlayerName] and [$NMName] part ways, and soonafter [$PlayerName] bumps into her coworker Jeff. 
+[[Jeff you won’t believe what I saw [$Char2First] doing!|Not_Private_Sexuality_1]]
+[[Jeff I gotta talk to you! Let’s go somewhere private|Private_Sexuality_1]]
+
+
+===
+title: Not_Private_Sexuality_1
+tags: 
+colorID: 0
+position: -25,1445
+---
+Jeff: Shhh!! Keep your voice down… let’s go into that office.
+[[Private_Sexuality_1]]
+===
+title: Private_Sexuality_1
+tags: 
+colorID: 0
+position: 534,1678
+---
+Jeff: what’s up?
+Skip:
+[$PlayerName]: you are not going to believe the shift I am having. I saw [$Char2First] kissing with another resident 
+Skip:
+Jeff: good for her... I just hope I’m that frisky when I’m their age. 
+Skip:
+[$PlayerName]: don’t you find it weird? Kind of yucky? It was embarrassing. 
+Skip:
+Jeff: loosin’ up a little Jo. Remember that we’re not here to judge. We support and respect their decisions as long as they’re safe. [$Char2First] knows what she’s doing.
+Skip:
+[$PlayerName]: yeah, I guess you’re right. Anyway…I should get going. I need to see [$NMName]. 
+Skip: 
+**Later that afternoon Joanne and Jeff notice a male resident attempting to hug [$Char2Last], who does not seem comfortable**
+Skip:
+[$Char2First]: Sorry Joe, I’m not really a big hugger.
+Skip:
+Jeff: See - it looks like [$Char2First] knows how to set her own boundaries.
+Skip:
+[$PlayerName]: yeah, she’s sure not shy to point something out that makes her feel uncomfortable
+Skip:
+**[$PlayerName] Approaches [$Char2Last]**
+Skip:
+[$PlayerName]: [$Char2First]!  I didn’t have a chance to ask you this morning, if you wanted to sign up for new music group tomorrow. 
+<<if $was_Polite>>
+[[Was_Polite_Sexuality_1]]
+<<endif>>
+
+<<if $not_Polite>>
+[[Not_Polite_Sexuality_1]]
+<<endif>>
+===
+title: Was_Polite_Sexuality_1
+tags: 
+colorID: 0
+position: 86,1919
+---
+[$Char2Last]: Sure! I thought I’d have to hunt you down to get my name on the list! Thanks, I hope I see more of you. 
+===
+title: Not_Polite_Sexuality_1
+tags: 
+colorID: 0
+position: 640,1965
+---
+[$Char2Last]: Oh, when you barged into my room this morning? 
+Skip:
+[$PlayerName]: Yeah. I owe you an apology - I’m sorry about this morning. Also I didn’t have a chance to ask you this morning if you wanted to sign up for new music group tomorrow. 
+Skip:
+**[$Char2Last] smiles**
+Skip:
+[$Char2Last]: I’ll see you then. 
+
+===

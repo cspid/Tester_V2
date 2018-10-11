@@ -1,0 +1,230 @@
+title: Start
+tags: 
+colorID: 0
+position: 273,208
+---
+//Leaning into Syds room
+
+[$PlayerName]: Hi there Syd! Would you like to come to bingo today? Should be a good one.
+skip:
+[$Character3First]: (Glumly) Oh. Hey [$PlayerName]. 
+skip:
+...
+skip:
+[$PlayerName]: How are you doing today? Everything alright with you?
+skip:
+[$Character3First]: I'm fine. I don't want to go to bingo today.
+
+[[Syd, tell me what's really going on with you|Pushy_Syd_Day_6]]
+[[Fair enough. You want me to turn the T.V. on for you?|Flippant_Syd_Day_6]]
+[[I understand, some days I kinda just want to be alone too.|Empathetic_Syd_Day_6]]
+===
+title: VariableSetup
+tags: 
+colorID: 0
+position: 277,-41
+---
+<<set $PlayerName = "(Player)">>
+<<set $NMName = "Nurse Manager">>
+<<set $PronounA = "he">>
+<<set $PronounB = "him">>
+<<set $PronounPos = "his">>
+<<set $Character2First = "Gloria">>
+<<set $Character2Last = "Mrs Stein">>
+<<set $Character3First = "Syd">>
+<<set $Character3Last = "LastName">>
+
+[[Start]]
+===
+title: Empathetic_Syd_Day_6
+tags: 
+colorID: 0
+position: 280,467
+---
+[$Character3First]: Really? How come?
+
+[[Sometimes I feel anxious in groups|Empathetic1_Syd_Day_6]]
+[[At times I worry I don't fit in|Empathetic1_Syd_Day_6]]
+[[I'm not sure why, to be honest|Empathetic_2_Syd_Day_6]]
+===
+title: Empathetic_3_Syd_Day_6
+tags: 
+colorID: 0
+position: 282,1017
+---
+[$Character3First]: I think literally every resident here as well as half the staff have asked me at some point - "Do you have a wife?" And when I say no, they look at me sympathetically and shake their heads. "So she passed away? I'm so sorry to hear that. How long has it been?"
+
+[[Some men just never meet the right woman, I don't think there's anything wrong with that.|Dumb_Syd_Day_6]]
+[[What do you want them to ask you Syd?|Probing_Syd_Day_6]]
+[[Please, go on..|Probing_Syd_Day_6]]
+===
+title: Dumb_Syd_Day_6
+tags: 
+colorID: 0
+position: -105,1036
+---
+[$Character3First]: Oh for heaven's sake. I regret talking about any of this with you, please leave me alone. <<set $Syd_Upset_Day_6 = true>>
+skip:
+**Continued on Day 7**
+===
+title: Probing_Syd_Day_6
+tags: 
+colorID: 0
+position: 663,903
+---
+[$Character3First]: It's just... people make so many presumptions. Sometimes I think it's because they're just being careless, but sometimes I think it's because they don't want me to tell them something they don't want to hear.
+skip:
+[$PlayerName]: How do you mean?
+skip:
+[$Character3First]: Like, they ask me about my "wife" so that I wont tell them what a wonderful man my partner is. So they wont have to hear me talk about how much it breaks my heart that when he visits I have to introduce him as my "friend", and we have to surpress any kind of love or affection we might feel for eachother, because heaven forbid, we might make someone feel uncomfortable. 
+
+[[Syd, I'm so sorry. I didn't know.|DidntKnow_Syd_Day_6]]
+[[You don't come across as being gay, maybe that's why people assume you have a wife.|DontSeemGay_Syd_Day_6]]
+===
+title: DontSeemGay_Syd_Day_6
+tags: 
+colorID: 0
+position: 184,1453
+---
+[$Character3First]: And how exactly do gay people "come across", in your opinion?
+
+[[Oh, I just mean that the way you talk and your body language is very masculine|Dumb_Syd_Day_6]]
+[[I'm so sorry, I shouldn't have said that|Apologize_Syd_Day_6]]
+===
+title: DidntKnow_Syd_Day_6
+tags: 
+colorID: 0
+position: 658,1202
+---
+[$Character3First]: It's not your fault, nobody here knows. I'm hoping I can trust you to keep that to yourself.
+[[Yes, of course.|Keep_Secret_Syd_Day_6]]
+[[Syd, I have to tell my boss, I could get in a lot of trouble.|Dumb_Syd_Day_6]]
+===
+title: Keep_Secret_Syd_Day_6
+tags: 
+colorID: 0
+position: 960,1159
+---
+[$PlayerName]: I wont tell anyone. But Syd, if I'm being honest I hate seeing how miserable this is making you. I want you to have a real home here, and I think you want that too. 
+skip:
+[$Character3First]: Of course. 
+skip:
+[$PlayerName]: Would you be willing to talk with some of the management here about your situation? It sounds like these kinds of issues haven't been fully thought through in terms of our policies. Your story might be able to help change that.
+skip:
+[$Character3First]: I highly doubt it. I get the feeling the people who run this place would much rather people like me stay quiet and not make a fuss. 
+
+[[To be honest, that sounds about right.|Keep_Secret_2_Syd_Day_6]]
+[[I'm not saying you're wrong, but it might be worth the risk at this point.|Keep_Secret_2_Syd_Day_6]]
+[[I'm certain they'll do the right thing.|Keep_Secret_2_Syd_Day_6]]
+
+===
+title: Keep_Secret_2_Syd_Day_6
+tags: 
+colorID: 0
+position: 1241,1152
+---
+[$Character3First]: I appreciate the gesture...
+skip:
+[$Character3First]: I really do. 
+skip:
+[$Character3First]: Let me sleep on it. 
+skip:
+[$PlayerName]: Of course, take your time. I've got to run - last chance to change your mind about bingo...
+skip:
+[$Character3First]: Ha! You are persistant. Another time perhaps. Really though, thanks for this. It felt really good to tell someone. 
+skip:
+[$PlayerName]: No problem Syd. See you later.
+skip:
+**Continued on Day 7**
+===
+title: Pushy_Syd_Day_6
+tags: 
+colorID: 0
+position: -142,238
+---
+[$Character3First]: What's 'really' going on with me? I've got too many pushy people like you in my life. 
+skip:
+[$PlayerName]: I'm sorry, I didn't mean to be pushy. I just noticed you feeling down and wanted to help.
+[[Pushy_Syd_2_Syd_Day_6]]
+===
+title: Empathetic1_Syd_Day_6
+tags: 
+colorID: 0
+position: 33,714
+---
+[$Character3First]: Ha! I can relate.
+skip:
+[$PlayerName]: How so?
+
+//The Player sits down accross from Syd.
+
+[[Empathetic_3_Syd_Day_6]]
+===
+title: Apologize_Syd_Day_6
+tags: 
+colorID: 0
+position: 663,1447
+---
+[$Character3First]: Whatever, more than anything it really just proves my point. Anyways, I'm hoping I can trust you to keep that to yourself.
+
+
+[[Yes, of course.|Keep_Secret_Syd_Day_6]]
+[[Syd, I have to tell my boss, I could get in a lot of trouble.|Dumb_Syd_Day_6]]
+
+
+===
+title: Flippant_Syd_Day_6
+tags: 
+colorID: 0
+position: 638,49
+---
+[$Character3First]: Sure. Whatever. 
+
+[[(Turn on TV) Alright, see you later|End_Flippant_Syd_Day_6]]
+[[Are you sure there's nothing you want to talk about?|Flippant_2_Syd_Day_6]]
+===
+title: Flippant_2_Syd_Day_6
+tags: 
+colorID: 0
+position: 657,335
+---
+[$Character3First]: Can I ask you something?
+skip:
+[$PlayerName]: Of Course. 
+skip:
+[$Character3First]: Do you feel like you let the people you meet here really get to know who you are?
+
+[[In a limited way, I'm a pretty private person.|Empathetic_2_Syd_Day_6]]
+[[Sure, I feel like I can be myself at work.|Empathetic_2_Syd_Day_6]]
+[[I only show people what I want them to see.|Empathetic_2_Syd_Day_6]]
+===
+title: End_Flippant_Syd_Day_6
+tags: 
+colorID: 0
+position: 927,49
+---
+<<set $End_Flippant_Syd_Day_6 = true>>
+
+**Continued on Day 7**
+===
+title: Empathetic_2_Syd_Day_6
+tags: 
+colorID: 0
+position: 345,718
+---
+[$Character3First]: That's interesting.
+skip:
+[$PlayerName]: Why do you ask?
+
+//The Player sits down accross from Syd.
+
+[[Empathetic_3_Syd_Day_6]]
+===
+title: Pushy_Syd_2_Syd_Day_6
+tags: 
+colorID: 0
+position: -148,488
+---
+[$Character3First]: Sorry for snapping at you. It's just... 
+[[Flippant_2_Syd_Day_6]]
+===

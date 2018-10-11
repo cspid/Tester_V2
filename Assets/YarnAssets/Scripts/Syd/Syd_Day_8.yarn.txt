@@ -1,0 +1,103 @@
+title: Start_Syd_Day_8
+tags: 
+colorID: 0
+position: 1653,402
+---
+**knocks knock** 
+
+[$Char3First]: Come in. 
+
+[$PlayerName]: **opens the door** Hi there, Syd. Sorry to interrupt, is this a good time? I'm here with my nurse manager [$NMName] and our resident social worker Dianne.
+
+[$Char3First]: Yes of course, please have a seat. This I my partner, Richard.
+
+[$PlayerName]: Yes, I think we met briefly the other day. Nice to see you again.
+
+[$Char3PartnerFirst]: Nice to see you too! 
+
+[$NMNanme]: Nice to see both of you again! Thanks for agreeing to meet with Diane and I, we really appreciate your willingness to be so open with us. Reminder – this is a safe and respectful environment. Whatever information you choose to share with us will never leave this room without your permission unless there is a safety risk to you or others. If it’s okay with you – can [insert player’s name] stay to listen? 
+
+[$Char3First]: Absolutely! Is that okay, Richard?  
+
+[$Char3PartnerFirst]: Of course! Have a seat. 
+
+Dianne: *smiles and grabs a chair* So Syd, how are you and Richard?  
+
+[$Char3First]: Happy! *Syd and Richard exchange looks* 
+
+Dianne: *smiles* Is it true, you’ve been together for 40 years? 
+
+[$Char3First]: Yeah, here's to many more years to come!  
+
+Dianne: How did you meet? 
+
+[$Char3First]: We met at a law firm in our 30s. After working in the firm for a couple of months, I was thinking of moving back to the suburbs to get away from all the city noise. Then, Richard was hired at the practice… Of course, I stayed… *smiles at Richard*  
+
+Dianne: Wow, how did you feel when you felt like you had to hide your sexuality at the home? 
+
+[$Char3First]: It took me many years to feel comfortable with who I was and share it with the world, so I felt isolated, like I was back in the closet again. I don’t expect everyone to agree with my lifestyle choices, we’re all so different, but I expect them to treat me with dignity and respect.  
+
+Dianne: *nods* You’re right! We would love to hear your suggestions on how we can improve the home’s culture. We want you to have a sense of safety in your own home.  
+
+[$Char3PartnerFirst]: We’re just regular people, we don’t have all the answers. You should educate yourself and the staff first! 
+
+Dianne: Of course -- and we will! Are there any things we can do for you personally?  
+
+[$Char3First]: Well, when I was first admitted you assumed I was heterosexual. Don’t make that mistake again with new residents. 
+
+[$NMNanme]: We’re sorry for assuming. What’s the most respectful way we can ask new residents about their sexuality?  
+
+[$Char3First]: Well, when I was filling out the forms, I was only asked to chose between “male” and “female”. A simple thing you could do is to update the forms and let them ask for “preferred gender” and “preferred pronouns”. 
+
+[$NMNanme]: *nods* Thanks, we haven’t thought of that.  
+
+Dianne: What would you like to change about your environment? 
+
+[$Char3First]: I guess we could start by changing the pictures in the memory box. I would love to post pictures of my adventures with Richard. We travelled to over 60 countries together!  
+
+[$PlayerName]: Wow! 
+
+Dianne: *smiles* Absolutely! We’ll put the photos in the memory box together whenever you’re ready!  
+
+[$Char3PartnerFirst]: *holds Syd’s hand* It’ll be hard to choose, we got nineteen albums! [laughs] 
+
+[$Char3First]: *smiles* Did I forget to mention, Richard is the avid photographer of the family? 
+
+[$NMNanme]: I can’t wait to see the pictures!  
+
+[$Char3First]: *excited* Oh, I would love to have a large pride flag to hang on the wall over there *points at a spot* 
+
+Dianne: *turns to supervisor* Siva, can we get a pride flag? 
+
+[$NMNanme]: Yes, we can. We want you and Richard to feel accepted and comfortable in your own home. 
+
+Dianne: Great! Anything else? 
+
+[$Char3First]: *shakes head* We’re not asking for much. We just want to feel welcome.  
+
+Dianne: You are welcome -- and we’re going to prove it in time.   
+
+[$NMNanme]: Yes! Thank you, Syd and Richard.  
+
+[$Char3First]: *Smiles* 
+
+[$Char3PartnerFirst]: Thanks for listening!  
+
+[PS, social worker, and nurse supervisor leave the room] 
+
+—Hallway— 
+
+Dianne: Like Syd said, we need to educate ourselves first! I’m going to do research on the LGBTQ community, speak with representatives, and learn about what other Long-Term Care homes are doing to be LGBTQ-friendly. I’ll put together a presentation for an in-service meeting afterwards. 
+
+[$NMNanme]: Perfect! Update me on your progress. [insert player’s name), let’s go to the nursing station? 
+
+—At the Nursing Station— 
+
+[$NMNanme]: *sitting in front of the computer* And -- that’s the last of the documentation. *turns to student* So, what did you learn? 
+
+[$PlayerName]: The importance of not making assumptions, oh, and the importance of using the correct gender pronouns.  
+
+[$NMNanme]: That’s right, it’s important that we use “Inclusive language” daily, and it’s always better to ask rather than assume something. I printed an article for you to read on “inclusive language”. I would love to see you apply it in practice.  
+
+[$PlayerName]: Thanks, [$NMName]!  
+===

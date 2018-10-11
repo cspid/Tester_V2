@@ -1,0 +1,187 @@
+title: Sexuality2_Start
+tags: 
+colorID: 0
+position: 291,-440
+---
+[$PlayerName]: [$Char4First]? Are you in there? It’s me, [$PlayerName]…
+Skip:
+[$Char4Last]: Yes, come in!
+Skip:
+[$PlayerName]: (tentatively, slowly) Ok, I’m coming in… Just opening the door… 
+Skip:
+[$Char4Last]: You can come in.
+Skip:
+[$PlayerName]: **(enters)** So! [$Char4First], I just want to apologize for the other day, barging in here like that. I know this is your home and I want to respect your privacy. I should have got your consent before entering.
+Skip:
+[$Char4Last]: Mistakes happen. I wasn’t upset with you walking in on Fred and I… If anything it’s been your behaviour since then that I find a bit annoying.
+
+[[What do you mean? What’s wrong with my behaviour?|Sexuality2_DEFENSIVE]]
+[[Joanne: Oh! I’m sorry, how… What do you mean? Did I say something wrong?|Sexuality2_APOLOGETIC]]
+===
+title: Sexuality2_DEFENSIVE
+tags: 
+colorID: 0
+position: 114,-126
+---
+[$Char4Last] You have been avoiding me since came into my room the other day, and to be honest it comes across to me as being quite childish. Do you have a problem with my relationship with Fred?
+[[No! Of course not!|Sexuality2_NO]]
+[[It’s just… I don’t really think of the residents that way|Sexuality2_YES]]
+===
+title: Sexuality2_APOLOGETIC
+tags: 
+colorID: 0
+position: 486,-130
+---
+Marie: It’s not anything you’ve said really, You have been avoiding me since came into my room the other day. Do you have a problem with my relationship with Fred?
+[[No! Of course not!|Sexuality2_NO]] 
+[[It’s just… I don’t really think of the residents that way|Sexuality2_YES]]
+===
+title: Sexuality2_NO
+tags: 
+colorID: 0
+position: 40,180
+---
+[$PlayerName]: **Flustered** I think it’s great that you and Fred are… a couple.
+Skip:
+[$Char4Last]: We’re not a couple! Don’t go telling people that!
+Skip:
+[$PlayerName]: No! I’m sorry! I mean, it’s great that you guys are… whatever you are… I’m sorry! I’m trying not to be weird!
+Skip:
+[$Char4Last]: Well you’ll have to try harder! Fred and I have a casual, sexual relationship, and we’re mature enough to handle that. 
+Skip:
+[$PlayerName]:Totally! I just have never known anyone your age to be, like, active that way… I didn’t think of you that way. I think about you like my grandparents.
+Skip:
+[$Char4Last]: Do you think seniors stop being intimate after a certain age? Or do you just not want to think about it?
+
+[[I guess I don't really think about it|Sexuality2_End]]
+[[I suppose I thought older adults just stop doing that stuff eventually|Sexuality2_End]]
+[[Maybe both|Sexuality2_End]]
+===
+title: Sexuality2_YES
+tags: 
+colorID: 0
+position: 572,175
+---
+[$Char4Last]: What way?
+Skip:
+[$PlayerName]: (Flustered) I’m sorry! I’m trying not to be weird!
+Skip:
+[$Char4Last]: Well, you’ll have to try harder! Fred and I have a casual, sexual relationship, and we’re mature enough to handle that. Are you? 
+Skip:
+[$PlayerName]: Totally! I just have never known anyone your age to be, like, active that way. I didn’t think of you that way and I guess it’s kind of a weird adjustment. I think about you like my own grandparents.
+Skip:
+[$Char4Last]: Do you think older adults stop being intimate after a certain age? 
+[[I don’t know…|Sexuality2_Dunno]]
+[[I guess, probably…|Sexuality2_Probably]]
+[[No way!|Sexuality2_No_Way]]
+===
+title: Sexuality2_End
+tags: 
+colorID: 0
+position: 23,621
+---
+[$Char4Last]: Just remember that we’re people just like you. We have our own private lives, and you’d probably be surprised how similar they are to yours. Do you have a partner?
+Skip:
+[$PlayerName]: Yeah.
+Skip:
+[$Char4Last]: And do you…?
+Skip:
+[$PlayerName]: [$Char3First]! That’s not appropriate.
+Skip:
+**looks away. awkward
+Skip:
+[$Char4Last]: (smiles) You see what I’m getting at.
+Skip:
+[$PlayerName]: Yeah. I’m sorry, I didn’t mean to make you feel like you’d done something wrong. Thanks for talking about this with me, I feel a lot better about it
+Skip:
+[$Char4Last]: Any big plans tonight?
+Skip:
+[$PlayerName]: My partner is actually coming to pick me up, we might go to a movie or something.
+Skip:
+[$Char4Last]: Gross!
+Skip:
+[$PlayerName]: **smiles** Very funny…
+===
+title: Sexuality2_Dunno
+tags: 
+colorID: 0
+position: 1039,552
+---
+[$PlayerName]: It feels dumb to say but maybe I haven't been thinking of older adults as being sexual people. 
+Skip:
+[$Char4Last]: Sounds like you just had a pretty big revelation! I know that you come here to help take care of me and the other residents, and to be honest I think you do a really great job.
+Skip:
+[$PlayerName]: Thanks [$Char4Last].
+Skip:
+[$Char4Last]: Just remember that we’re people just like you. We have our own private lives, and you’d probably be surprised how similar they are to yours. Do you have a partner?
+Skip:
+[$PlayerName]: Yeah.
+Skip:
+[$Char4Last]: And do you…?
+Skip:
+[$PlayerName]: [$Char3First]! That’s not appropriate.
+Skip:
+**looks away. awkward
+Skip:
+[$Char4Last]: (smiles) You see what I’m getting at.
+Skip:
+[$PlayerName]: Yeah. I’m sorry, I didn’t mean to make you feel like you’d done something wrong. Thanks for talking about this with me, I feel a lot better about it
+Skip:
+[$Char4Last]: Any big plans tonight?
+Skip:
+[$PlayerName]: My partner is actually coming to pick me up, we might go to a movie or something.
+Skip:
+[$Char4Last]: Gross!
+Skip:
+[$PlayerName]: **smiles** Very funny…
+===
+title: Sexuality2_Probably
+tags: 
+colorID: 0
+position: 759,554
+---
+[$PlayerName]: I guess I'd really never thought about it.
+Skip:
+[$Char4Last]: Sounds like you just had a pretty big revelation! I know that you come here to help take care of me and the other residents, and to be honest I think you do a really great job.
+Skip:
+[$PlayerName]: Thanks [$Char4Last].
+Skip:
+[$Char4Last]: Just remember that we’re people just like you. We have our own private lives, and you’d probably be surprised how similar they are to yours. Do you have a partner?
+Skip:
+[$PlayerName]: Yeah.
+Skip:
+[$Char4Last]: And do you…?
+Skip:
+[$PlayerName]: [$Char3First]! That’s not appropriate.
+Skip:
+**looks away. awkward
+Skip:
+[$Char4Last]: (smiles) You see what I’m getting at.
+Skip:
+[$PlayerName]: Yeah. I’m sorry, I didn’t mean to make you feel like you’d done something wrong. Thanks for talking about this with me, I feel a lot better about it
+Skip:
+[$Char4Last]: Any big plans tonight?
+Skip:
+[$PlayerName]: My partner is actually coming to pick me up, we might go to a movie or something.
+Skip:
+[$Char4Last]: Gross!
+Skip:
+[$PlayerName]: **smiles** Very funny…
+===
+title: Sexuality2_No_Way
+tags: 
+colorID: 0
+position: 411,535
+---
+Marie: How do you know?
+Skip:
+Joanne: I mean… I don’t, I guess. I kind of assumed they didn’t do that anymore.
+Skip:
+Marie: Because you think that’s true or because you don’t want to think about it?
+Skip:
+Joanne: It feels true [Sexuality2_End]
+Skip:
+Joanne: I don’t want to think about it [Sexuality2_End]
+Skip:
+Joanne: Maybe both [Sexuality2_End]
+===

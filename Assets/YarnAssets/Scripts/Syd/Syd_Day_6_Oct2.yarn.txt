@@ -1,0 +1,257 @@
+title: Start_Syd_Day_6
+tags: 
+colorID: 5
+position: 1045,-349
+---
+//Knocks on the door, performs hand hygiene and approaches Syd.
+
+[$PlayerName]: Hi there, [$Char3First]. There's tai chi this morning. Would you like to go?
+skip:
+//With a glum look
+[$Char3First]: Hey, [$PlayerName].
+
+[[How are you doing today, [$Char3First]?|Curious_Syd_Day_6]]
+[[How are you doing today, [$Char3First]? It's a nice day to go to bingo.|Smile_Syd_Day_6]]
+[[[$Char3First], what would you like to wear today?|Clothes_Syd_Day_6]]
+===
+title: Curious_Syd_Day_6
+tags: 
+colorID: 0
+position: 788,-64
+---
+//Greet with curious display
+
+[$PlayerName]: How are you doing today, [$Char3First]?
+Skip:
+[$Char3First]: Okay. No to tai chi. I don't feel like doing anything today.
+Skip:
+[$PlayerName]: You seem to be a little down. What's troubling you?
+Skip:
+//Hesitating
+[$Char3First]: It's always awkward talking to the other residents. *Sigh*
+Skip:
+[$PlayerName]: Can you tell me more about that? Is it okay if I sit down?
+
+[[Decision_2_Syd_Day_6]]
+===
+title: Smile_Syd_Day_6
+tags: 
+colorID: 0
+position: 1051,-64
+---
+//Greet with a smile
+
+[$PlayerName]: How are you doing today, [$Char3First]? It's a nice day to go to tai chi.
+Skip:
+[$Char3First]: Okay. But tai chi? I don't feel like doing anything today.
+Skip:
+//Curious but persistent
+[$PlayerName]: No to tai chi? What do you mean> I'ts a nice day to go out. You should go out.
+Skip
+//Hesitates
+[$Char3First]: I guess, but I don't really want to go. *sigh*
+Skip:
+[$PlayerName]: Sorry, [$Char3First], I didn't mean to be persistent. Can you tell me more about why you don't want to go? *Grabs a chair*
+
+[[Decision_2_Syd_Day_6]]
+===
+title: Clothes_Syd_Day_6
+tags: 
+colorID: 0
+position: 1302,-64
+---
+//Greets and prepares clothes
+
+[$PlayerName]: [$Char3First], what would you like to wear for today?
+Skip:
+[$Char3First]: Umm, I don't know. Just pick something up there. There should be something.
+Skip:
+//Picks up some clothing from the closet
+[$PlayerName]: All right, I have picked this one. Do you like this one?
+Skip:
+[$Char3First]: Ok, let's prepare. I'll have this one. What do you want to do first?
+
+<<$isthought = true>>
+The player should investigate why [Char3First] is feeling down. This will show empathy.
+<<$isthought = false>>
+
+[[Decision_2_Syd_Day_6]]
+===
+title: Decision_2_Syd_Day_6
+tags: 
+colorID: 0
+position: 1046,264
+---
+[$Char3First]: They're always asking me about my "wife." When I say I don't have one, they ask when she died. Or was I a bachelor? I'm tired of it. I don't even answer anymore. I just leave.
+
+[[You don't like these questions. What would you like them to know about you?|Reflect_Syd_Day_6]]
+[[Hmm, I don't really understand what you mean by that, [$Char3First]. Can you tell me more about why you don't want to talk about your relationship?|Clarify_Syd_Day_6]]
+[[I think I know what you mean, [$Char3First]. I think you should open this up to the nurse. Are you gay?|Assume_Syd_Day_6]]
+===
+title: Reflect_Syd_Day_6
+tags: 
+colorID: 0
+position: 764,583
+---
+//Smiles and shows a caring, reassuring manner.
+[$PlayerName]: You don't like these questions. What would you like them to know about you?
+Skip:
+[$Char3First]: ...
+Skip:
+[$PlayerName]: I'd really like to help you feel more comfortable here with the other residents.
+Skip:
+[Char3First]: Don't worry about it. I just really miss my best friend and it would be nice to get out of this room and have him come to tai chi with me.
+[[Best_Friend_Syd_Day_6]]
+===
+title: Clarify_Syd_Day_6
+tags: 
+colorID: 0
+position: 1041,584
+---
+[$PlayerName]: Hmm, I don't really understand what you mean by that, [Char3First]. Can you tell me more about why you don't want to talk about your relationship?
+Skip:
+[$Char3First]: Don't worry about it. I don't think you would understand me.
+Skip:
+[$PlayerName]: It sounds like you are concerned about sharing this. I'm here to listen.
+Skip:
+[$PlayerName]: It's okay, don't worry about it. I just really miss my best friend and it would be great to get out of this room and have him come to tai chi with me.
+
+[[Best_Friend_Syd_Day_6]]
+===
+title: Assume_Syd_Day_6
+tags: 
+colorID: 0
+position: 1304,583
+---
+[$PlayerName]: I think I know what you mean, [$Char3First]! I think you should open this up to the nurse. Are you gay? *Smiles*
+SKip:
+[$Char3First]: Never mind, [$PlayerName]. Do you mind leaving me for now? I don't really want to talk about this.
+<<isthought = true>>
+Do not be dismissive about [$Char3First]'s statement. Understand and listen carefully as to the meaning of the statement.
+<<isthought = false>>
+[$PlayerName]: I'm sorry, [$Char3First], I didn't mean that. I was wrong about assuming and offending you. It's my fault.
+Skip:
+[$Char3First]: ...
+Skip:
+[$PlayerName]: I understand, [Char3First]. I'll give you space and I'll let the activation know that you don't want to go to tai chi. I'm really sorry.
+//Player begins to leave the room
+[Char3First]: Hold on... Don't worry about it. I know you wouldn't understand.
+//Player goes back in and grabs a chair
+[$PlayerName]: I’m sorry for assuming, [$Char3First]. It sounds like you are concerned about sharing this. I’m here to listen.
+Skip
+[Char3First]: It's okay,  don't worry about it. I just really miss my best friend and it would be nice to get out of this room and have him come to tai chi with me.
+
+[[Best_Friend_Syd_Day_6]]
+===
+title: Best_Friend_Syd_Day_6
+tags: 
+colorID: 0
+position: 1038,921
+---
+[$PlayerName]: Tell me about your best friend. What's his name?
+Skip:
+[$Char3First]: It’s Richard. He tries to come every day, but sometimes he’s not feeling so good and can’t come. Ever since I moved here I feel so isolated. I can’t relate to anyone in this place.
+Skip:
+[$PlayerName]: It must be hard to feel so isolated and feel like you don’t have anyone to talk to.
+Skip:
+[$Char3First]: Yeah, it's a big change from being at home.
+Skip:
+[$PlayerName]: [$Char3First], can you tell me a little bit about Richard?
+Skip:
+[Char3First]: We live together. Well, he’s more than a friend, he’s been my partner--my life partner--for more than 40 years.
+Skip:
+[$PlayerName]: I understand now, [$Char3First]. Richard has been your life partner for 40 years and you are really concerned about this.
+Skip:
+[$Char3First]: Yeah.
+Skip:
+[$Playername]: Since I'm a student, [$Char3First], I can only do so much, but would it be okay to share what you've told me with my preceptor and the Nurse Manager so they know your concerns?
+Skip:
+[$Char3First]: Sure. Thank you. Tell them that being here makes me feel like I have to cover up who I am just to try to fit in. *Points to his displayed photos* I mean, take a look at this room. Richard and I spent our lives together but there aren’t any pictures of us together. There are other pictures, but none of Richard.
+Skip:
+[$PlayerName]: This is your home [$Char3First], you should put things out in your room that makes you comfortable.
+Skip:
+[$Char3First]: *Smiles* Yeah, sure.
+Skip:
+[$PlayerName]: *Smiles* I believe it’s really important that you can feel comfortable here, [$Char3First]. You should never have to hide who you are.
+Skip:
+[$Char3First]: That’s a good start. Thank you.
+Skip:
+[$PlayerName]: Would you like to come to tai chi? I’ll come by with you later.
+Skip:
+[$Char3First]: That sounds good!
+
+//Player leaves the room to go to the Nursing Station but found the nurse in the hallway.
+
+[[Nurse_Open_Syd_Day_6]]
+===
+title: Good_Nurse_Syd_Day_6
+tags: 
+colorID: 0
+position: 1058,1513
+---
+[$PlayerName]: Hi [$NMName], I was just with [$Char3First], in room 121. [$Char3First] was talking to me about--
+Skip:
+[$NMName]: Sorry, [$PlayerName], but I have to cut you off. We are not allowed to talk about our residents in the hallway because we can breach their privacy and confidentiality. Let’s go to the nursing station.
+Skip:
+[$PlayerName]: Okay
+
+//PLAYER GOES TO NURSING STATION
+
+[[Nursing_Station_Syd_Day_6]]
+===
+title: Great_Nurse_Syd_Day_6
+tags: 
+colorID: 0
+position: 749,1511
+---
+[$PlayerName]: Hi there [NMName], do you have a minute? I need to talk regarding my conversation with [$Char3First].
+Skip:
+[$NMName]: Sure, why don't we talk to the nursing station then?
+Skip:
+[$PlayerName]: Okay.
+
+//PLAYER GOES TO NURSING STATION SETTING 
+
+[[Nursing_Station_Syd_Day_6]]
+===
+title: Bad_Nurse_Syd_Day_6
+tags: 
+colorID: 0
+position: 1338,1508
+---
+[$PlayerName]: Talk to the nurse later --- "I think the nurse is busy right now, I talk to him/her later"
+Skip:
+<<isthought = true>>
+This is an important conversation and should be shared with the healthcare team. 
+<<isthough = false>>
+[$PlayerName]: "Hi there. [$NMName], do you have a minute? I need to talk regarding my conversation with [Char3First].
+Skip:
+[$NMName]: Sure, why don't we talk to the nursing station then?
+Skip:
+[$PlayerName]: Okay.
+
+//PLAYER GOES TO NURSING STATION SETTING 
+
+[[Nursing_Station_Syd_Day_6]]
+===
+title: Nurse_Open_Syd_Day_6
+tags: 
+colorID: 0
+position: 1047,1251
+---
+[[Hi [$NMName], I was just with [$Char3First], in room 121. [$Char3First] was talking to me about--|Good_Nurse_Syd_Day_6]]
+[[Hi there [$NMName], do you have a minute? I need to talk regarding my conversation with [$Char3First].|Great_Nurse_Syd_Day_6]]
+[[I think the nurse is busy right now, I talk to them later.|Bad_Nurse_Syd_Day_6]]
+===
+title: Nursing_Station_Syd_Day_6
+tags: 
+colorID: 0
+position: 1061,1818
+---
+[$PlayerName]: [Char3First], in room 121, was just talking to me about how he feels sad and really isolated and doesn’t feel like he belongs here. He told me that Richard is more than just a friend, he has been [Char3First]’s partner for 40 years.  
+Skip:
+[$NMName]: Thank you [$PlayerName]. It sounds like you make a good connection with [Char3First]. I think the next step would be to involve our interdisciplinary team, but first you need to talk to your preceptor about your conversation with [Char3First] and she’ll advise you on how we might proceed.  
+Skip:
+//Player talks to the preceptor and describes the conversation with Syd.   
+//Nurse was able to get a hold of the social worker and let the student talk to the social worker about the same situation. A few days later, the nurse arranged a meeting with Syd and Richard together with the social worker and the nurse supervisor. Syd discussed with Richard what had happened today when Richard visited Syd on that day. 
+===
